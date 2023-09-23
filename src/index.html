@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Star Api</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <header>
+        <select name="type" class="select" id="categoryPicker">
+            <option value="people">people</option>
+            <option value="planets">planets</option>
+            <option value="films">films</option>
+            <option value="species">species</option>
+            <option value="vehicles">vehicles</option>
+            <option value="starships">starships</option>
+          </select>
+        <button id="backButton">Go Back</button>
+    </header>
+    <div>
+        <input type="text" id="searchInput" placeholder="Buscar por nombre">
+        <button id="searchButton">Buscar</button>
+    </div>
+    <div id="app">
+        <div id="detailView">
+            <h2>Detalles de la entidad</h2>
+            <p>Nombre: <span id="entityName"></span></p>
+
+            <button id="goBackButton2">Regresar al inicio</button>
+          </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
