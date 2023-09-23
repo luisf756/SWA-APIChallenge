@@ -1,5 +1,6 @@
 {
   "name": "pruebatec",
+  "homepage": "https://luisf756.github.io/SWA-APIChallenge",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,6 +8,10 @@
     "start": "serve src",
     "format": "prettier --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://luisf756.github.io/SWA-APIChallenge"
   },
   "keywords": [],
   "author": "",
