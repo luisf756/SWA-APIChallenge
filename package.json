@@ -3,7 +3,7 @@
   "homepage": "https://luisf756.github.io/SWA-APIChallenge",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "start": "serve src",
     "build": "serve build src/*.html --public-url /SWA-APIChallenge/",
